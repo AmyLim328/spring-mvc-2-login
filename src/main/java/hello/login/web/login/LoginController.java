@@ -116,7 +116,7 @@ public class LoginController {
         return "redirect:/";
     }
 
-    // Extract method : ctrl + alt + m
+    // Extract method (ctrl + alt + m)
     private void expireCookie(HttpServletResponse response, String cookieName) {
         Cookie cookie = new Cookie(cookieName, null);
         cookie.setMaxAge(0);
