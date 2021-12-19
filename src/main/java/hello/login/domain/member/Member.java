@@ -23,4 +23,4 @@ public class Member {
 }
 
 // 이전 수업에서 했듯이 AddMemberForm, UpdateMemberForm 등을 생성해주는 것이 좋지만 예시가 간단하므로
-// Member 객체에 bean validation 명시해주었다다
+// Member 객체에 bean validation 명시해주었다
